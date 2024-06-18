@@ -1,0 +1,11 @@
+{
+    "name": "websitepro/sm-post-render",
+    "description": "A custom WordPress plugin with a settings page for AG-ID.",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "SMPostRender\\": "src/"
+        }
+    },
+    "require": {}
+}
