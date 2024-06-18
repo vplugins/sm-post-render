@@ -68,7 +68,7 @@ class SettingsPage
     {
         $agId = get_option('ag_id');
         ?>
-        <input type="text" name="ag_id" class="regular-text" value="<?php echo isset($agId) ? esc_attr($agId) : ''; ?>" />
+        <input type="text" name="ag_id" class="regular-text" required value="<?php echo isset($agId) ? esc_attr($agId) : ''; ?>" />
         <p class="description">Enter your Business ID here.</p>
         <?php
     }
@@ -77,7 +77,7 @@ class SettingsPage
     {
         $feedId = get_option('feed_id');
         ?>
-        <input type="text" name="feed_id" class="regular-text" value="<?php echo isset($feedId) ? esc_attr($feedId) : ''; ?>" />
+        <input type="text" name="feed_id" class="regular-text" required value="<?php echo isset($feedId) ? esc_attr($feedId) : ''; ?>" />
         <p class="description">Enter your Feed Identifier here.</p>
         <?php
     }
