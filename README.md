@@ -21,7 +21,7 @@ To display social media posts on your website, use the following shortcode in yo
 
 ### Shortcode Attributes
 
-- `per_page`: The number of posts to display per page (default to: 5).
+- `per_page`: The number of posts to display per page (default: 5).
 
 ## Frequently Asked Questions
 
