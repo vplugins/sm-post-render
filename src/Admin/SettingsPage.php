@@ -105,7 +105,7 @@ class SettingsPage
     <h2><?php _e('Shortcode Usage', 'sm-post-render'); ?></h2>
     <p><?php _e('Use the', 'sm-post-render'); ?> <code>[sm-post]</code> <?php _e('shortcode to display social media posts on your website. Here are the available attributes:', 'sm-post-render'); ?></p>
     <ul>
-        <li><strong><?php _e('per_page', 'sm-post-render'); ?></strong>: <?php _e('The number of posts to display per page (default and restricted to: 5).', 'sm-post-render'); ?></li>
+        <li><strong><?php _e('per_page', 'sm-post-render'); ?></strong>: <?php _e('The number of posts to display per page (default: 5).', 'sm-post-render'); ?></li>
     </ul>
     <p><strong><?php _e('Example Usage:', 'sm-post-render'); ?></strong></p>
     <pre style="display: inline;"><code id="shortcode-sm-render">[sm-post per_page="5"]</code></pre>
