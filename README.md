@@ -4,6 +4,8 @@
 ![PHP Version](https://img.shields.io/badge/PHP-%5E7.4-blue)
 ![WordPress Version](https://img.shields.io/badge/WordPress-%5E5.0-blue)
 
+> ⚠️ **Note: This plugin is no longer updated or maintained.**
+
 ## Description
 
 SM Post Render is a WordPress plugin that allows you to fetch and display social media posts on your website using a simple shortcode. The plugin comes with a settings page to configure your AG-ID and Feed Identifier.
